@@ -27,8 +27,8 @@ class RSIStrategy(IStrategy):
     trailing_stop = False
 
     # Hyperparameters (tunable via freqtrade hyperopt)
-    buy_rsi = IntParameter(low=20, high=40, default=30, space="buy", optimize=True)
-    sell_rsi = IntParameter(low=60, high=80, default=70, space="sell", optimize=True)
+    buy_rsi = IntParameter(low=20, high=40, default=35, space="buy", optimize=True)
+    sell_rsi = IntParameter(low=60, high=80, default=65, space="sell", optimize=True)
     rsi_period = IntParameter(low=7, high=21, default=14, space="buy", optimize=False)
 
     def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:

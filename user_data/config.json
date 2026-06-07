@@ -1,9 +1,9 @@
 {
   "trading_mode": "spot",
   "margin_mode": "",
-  "max_open_trades": 3,
+  "max_open_trades": 5,
   "stake_currency": "USDT",
-  "stake_amount": 100,
+  "stake_amount": 80,
   "tradable_balance_ratio": 0.99,
   "fiat_display_currency": "EUR",
   "dry_run": true,
@@ -21,7 +21,12 @@
       "ETH/USDT",
       "SOL/USDT",
       "BNB/USDT",
-      "ADA/USDT"
+      "ADA/USDT",
+      "XRP/USDT",
+      "DOGE/USDT",
+      "AVAX/USDT",
+      "LINK/USDT",
+      "DOT/USDT"
     ],
     "pair_blacklist": [
       "BNB/.*"
