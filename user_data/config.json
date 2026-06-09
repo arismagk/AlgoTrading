@@ -60,18 +60,18 @@
     "exit": "GTC"
   },
 
-  "stoploss": -0.05,
+  "stoploss": -0.03,
   "trailing_stop": true,
 
   "minimal_roi": {
-    "0":   0.04,
-    "60":  0.025,
-    "120": 0.015,
-    "240": 0.005,
-    "360": 0
+    "0":   0.03,
+    "30":  0.02,
+    "60":  0.01,
+    "120": 0.005,
+    "180": 0
   },
 
-  "timeframe": "1h",
+  "timeframe": "15m",
 
   "telegram": {
     "enabled": false,
