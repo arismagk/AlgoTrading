@@ -1,9 +1,9 @@
 {
   "trading_mode": "spot",
   "margin_mode": "",
-  "max_open_trades": 5,
+  "max_open_trades": 9,
   "stake_currency": "USDT",
-  "stake_amount": 80,
+  "stake_amount": "unlimited",
   "tradable_balance_ratio": 0.99,
   "fiat_display_currency": "EUR",
   "dry_run": true,
@@ -60,18 +60,17 @@
     "exit": "GTC"
   },
 
-  "stoploss": -0.03,
+  "stoploss": -0.01,
   "trailing_stop": true,
 
   "minimal_roi": {
-    "0":   0.03,
-    "30":  0.02,
-    "60":  0.01,
-    "120": 0.005,
-    "180": 0
+    "0":  0.01,
+    "15": 0.005,
+    "30": 0.002,
+    "60": 0
   },
 
-  "timeframe": "15m",
+  "timeframe": "5m",
 
   "telegram": {
     "enabled": false,
